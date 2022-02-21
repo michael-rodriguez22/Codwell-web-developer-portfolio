@@ -59,6 +59,6 @@ const handleHashChange = () => {
       ? item.classList.add("active")
       : item.classList.remove("active")
   })
-  mobileNav.classList.contains("active") && setTimeout(toggleMenu, 500)
+  mobileNav.classList.contains("active") && setTimeout(toggleMenu, 300)
 }
 window.addEventListener("hashchange", handleHashChange)
