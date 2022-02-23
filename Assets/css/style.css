@@ -297,6 +297,11 @@ section p {
   width: 100%;
 }
 
+#About,
+#Contact {
+  scroll-margin-top: 6rem;
+}
+
 /* --------------------------------------- */
 /* Footer */
 footer .container {
